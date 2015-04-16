@@ -1,0 +1,19 @@
+{
+  "name": "aVIDEO",
+  "version": "0.1.0",
+  "authors": [
+    "Anthon Astrom <anthon@astromzimmer.com>"
+  ],
+  "description": "Vimeo lib.",
+  "main": "aVIDEO.js",
+  "license": "aLICENCE",
+  "homepage": "astromzimmer.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src"
+  ],
+  "dependencies": {}
+}
