@@ -78,7 +78,6 @@ aVIMEO = (function() {
       method: method,
       value: params
     });
-    console.log(data);
     if (url.substr(0, 2) === '//') {
       url = window.location.protocol + url;
     }
