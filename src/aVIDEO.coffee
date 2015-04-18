@@ -79,6 +79,7 @@ aVIMEO = (->
 		data = JSON.stringify
 			method: method
 			params: params
+		console.log data
 
 		if url.substr(0,2) is '//'
 			url = window.location.protocol + url
