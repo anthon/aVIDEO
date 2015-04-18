@@ -78,7 +78,7 @@ aVIMEO = (->
 		url = target.getAttribute('src').split('?')[0]
 		data = JSON.stringify
 			method: method
-			params: params
+			value: params
 		console.log data
 
 		if url.substr(0,2) is '//'
